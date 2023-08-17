@@ -1,0 +1,184 @@
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario
+$ git clone https://github.com/jonhg29/Checkpoint-JonatanHilario
+Cloning into 'Checkpoint-JonatanHilario'...
+warning: You appear to have cloned an empty repository.
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario
+$ cd Checkpoint-JonatanHilario/
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (main)
+$ touch main.js
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (main)
+$ touch index.html
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (main)
+$ git commit -m "commit 01 de Jonatan Hilario"
+On branch main
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+        main.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (main)
+$ git add .
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (main)
+$ git commit -m "commit 01 de Jonatan Hilario"
+[main (root-commit) 47dcc9e] commit 01 de Jonatan Hilario
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (main)
+$ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 229 bytes | 229.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jonhg29/Checkpoint-JonatanHilario
+ * [new branch]      main -> main
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (main)
+$ git branch feature
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (main)
+$ git checkout feature
+Switched to branch 'feature'
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (feature)
+$ mkdir Hardware
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (feature)
+$ mkdir Software SeguridadInformatica
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (feature)
+$ cd Hardware/
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario/Hardware (feature)
+$ touch resumen.txt
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario/Hardware (feature)
+$ cd ..
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (feature)
+$ cd Software/
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario/Software (feature)
+$ touch resumen.txt
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario/Software (feature)
+$ cd ..
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (feature)
+$ cd SeguridadInformatica/
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario/SeguridadInformatica (feature)       
+$ touch resument.txt
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario/SeguridadInformatica (feature)       
+$ git add .
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario/SeguridadInformatica (feature)       
+$ git status
+On branch feature
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   resument.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../Hardware/
+        ../Software/
+
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario/SeguridadInformatica (feature)       
+$ cd ..
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (feature)
+$ git add .
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (feature)
+$ git commit -m "commit 02 de Jonatan Hilario"
+[feature 02f439b] commit 02 de Jonatan Hilario
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Hardware/resumen.txt
+ create mode 100644 SeguridadInformatica/resument.txt
+ create mode 100644 Software/resumen.txt
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (feature)
+$ git push
+fatal: The current branch feature has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (feature)
+$ git push origin feature
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 439 bytes | 439.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/jonhg29/Checkpoint-JonatanHilario/pull/new/feature    remote:      https://github.com/jonhg29/Checkpoint-JonatanHilario/pull/new/featureremote:      https://github.com/jonhg29/Checkpoint-JonatanHilario/pull/new/featurremote:      https://github.com/jonhg29/Checkpoint-JonatanHilario/pull/re
+remote:
+To https://github.com/jonhg29/Checkpoint-JonatanHilario
+ * [new branch]      feature -> feature
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjerOn branch feature
+On branch feature
+nothing to commit, working tree clean
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (feature)      
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (main)
+$ mv index.html resumenSoftware.txt
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (main)
+$ mv main.js resumenHardware.txt
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (main)
+$ touch comandos.txt
+
+jonhg@Jonatan MINGW64 ~/OneDrive/Digital House/Introduccion a la informatica/EjercicioGitHub/Checkpoint-JonatanHilario/Checkpoint-JonatanHilario (main)
+$
